@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './RechartsLineChart.module.css'
 import { data } from '../../data'
-import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts'
+import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend } from 'recharts'
 
 const RechartsLineChart = () => {
 
@@ -20,6 +20,8 @@ const RechartsLineChart = () => {
                         dataKey="name" 
                     />
                     <YAxis />
+                    <Tooltip />
+                    <Legend />
                     <Line type="monotone" dataKey="uv" stroke="red" />
                     <Line type="monotone" dataKey="pv" stroke="green" />
                     <Line type="monotone" dataKey="amt" stroke="blue" />
