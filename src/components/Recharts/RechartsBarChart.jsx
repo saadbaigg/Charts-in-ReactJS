@@ -4,7 +4,6 @@ import styles from './RechartsBarChart.module.css'
 import {
     BarChart,
     Bar,
-    Cell,
     XAxis,
     YAxis,
     CartesianGrid,
