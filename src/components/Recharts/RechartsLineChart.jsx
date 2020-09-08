@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './Recharts.module.css'
+import styles from './RechartsLineChart.module.css'
 import { data } from '../../data'
 import { LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts'
 
-const Recharts = () => {
+const RechartsLineChart = () => {
 
     return (
         <div className={styles.container}>
@@ -29,4 +29,4 @@ const Recharts = () => {
     );
 }
 
-export default Recharts;
+export default RechartsLineChart;
