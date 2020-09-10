@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from './ChartJSLineChart.module.css'
+import styles from './ChartJSBarChart.module.css'
 import { Bar } from 'react-chartjs-2'
 import { ChartData } from '../../data'
 
-const ChartJSLineChart = () => {
+const ChartJSBarChart = () => {
 
     return (
         <div className={styles.container}>
@@ -32,4 +32,4 @@ const ChartJSLineChart = () => {
     )
 }
 
-export default ChartJSLineChart
+export default ChartJSBarChart
