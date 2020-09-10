@@ -1,3 +1,4 @@
+// Recharts Data
 export const data = [
     {
         name: 'Page A', uv: 8000, pv: 2400, amt: 2400,
@@ -21,3 +22,30 @@ export const data = [
         name: 'Page G', uv: 2790, pv: 4300, amt: 2100,
     },
 ];
+// Charts data
+export const ChartData = {
+    labels: ['Tokyo', 'Delhi', 'Shanghai', 'Sao Paulo', 'Mexico', 'Cairo', 'Karachi'],
+    datasets: [
+        {
+            label: 'Population',
+            data: [
+                37435191,
+                29399141,
+                26317104,
+                21846507,
+                21671908,
+                20484965,
+                16093786,
+            ],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.6)',
+                'rgba(54, 162, 235, 0.6)',
+                'rgba(255, 206, 86, 0.6)',
+                'rgba(75, 192, 192, 0.6)',
+                'rgba(153, 102, 255, 0.6)',
+                'rgba(255, 159, 64, 0.6)',
+                'rgba(255, 99, 132, 0.6)',
+            ],
+        }
+    ]
+}
