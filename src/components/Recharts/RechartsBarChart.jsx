@@ -16,7 +16,7 @@ const RechartsBarChart = () => {
     return (
         <div className={styles.container}>
             <h1>Recharts</h1>
-            <p>Line Chart</p>
+            <p>Bar Chart</p>
             <div className={styles.chartContainer}>
                 <BarChart
                     width={1200} 
