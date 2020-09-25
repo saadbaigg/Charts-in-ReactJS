@@ -1,0 +1,36 @@
+.apexcharts-menu-icon {
+    display: none;
+}
+.apexcharts-series {
+    border-radius: 50px;
+}
+.apexcharts-series:hover {
+    background-color: red;
+}
+.apexcharts-bar-area {
+    border-radius: 50px;
+}
+.apexcharts-yaxis, .apexcharts-xaxis-inversed {
+    display: none;
+}
+.apexcharts-legend.apexcharts-align-center.position-bottom {
+    display: none;
+}
+.apexcharts-xaxis-texts-g {
+    display: none;
+}
+.apexcharts-xaxis.apexcharts-yaxis-inversed {
+    display: none;
+}
+#SvgjsDefs1002 {
+    display: none;
+}
+.apexcharts-xaxis-tick {
+    display: none;
+}
+.apexcharts-gridlines-vertical {
+    display: none;
+}
+.apexcharts-gridlines-horizontal {
+    display: none;
+}
